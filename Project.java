@@ -12,7 +12,7 @@ public class Project {
     public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
 
-//		to read from the file
+        //		to read from the file
         File myObj = new File("C:\\Users\\HP\\IdeaProjects\\training\\src\\CS3230_Project\\the hotel.txt");
         Scanner myReader = new Scanner(myObj);
 
@@ -40,7 +40,7 @@ public class Project {
             switch(mainInput) {
 
                 case "1": {
-//			ADD BOOKINGS
+                //			ADD BOOKINGS
                     do {
                         System.out.println("This booking is just for the next month.. ");
                         System.out.println("Enter first name: ");
